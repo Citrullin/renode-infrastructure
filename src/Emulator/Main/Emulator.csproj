@@ -340,6 +340,7 @@
     <Compile Include="Core\HostMachine.cs" />
     <Compile Include="Core\IConnectable.cs" />
     <Compile Include="Backends\Terminals\BackendTerminal.cs" />
+    <Compile Include="Backends\SPI\BackendSPI.cs" />
     <Compile Include="Peripherals\DMA\Place.cs" />
     <Compile Include="Plugins\PluginManager.cs" />
     <Compile Include="Peripherals\IAnalyzableBackend.cs" />
@@ -416,6 +417,7 @@
     <Compile Include="Peripherals\Bus\BusAccess.cs" />
     <Compile Include="Utilities\SocketServerProvider.cs" />
     <Compile Include="Backends\Terminals\ServerSocketTerminal.cs" />
+    <Compile Include="Backends\SPI\ServerSocketSPI.cs" />
     <Compile Include="Utilities\PtyUnixStream.cs" />
     <Compile Include="Utilities\SocketIOSource.cs" />
     <Compile Include="UserInterface\IconAttribute.cs" />
